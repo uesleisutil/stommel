@@ -8,7 +8,6 @@ import matplotlib.animation as animation
 import matplotlib.colors as colors
 import matplotlib
 
-
 def bbox2ij(lon,lat,bbox=[-160., -155., 18., 23.]):
     """Return indices for i,j that will completely cover the specified bounding box.
    
